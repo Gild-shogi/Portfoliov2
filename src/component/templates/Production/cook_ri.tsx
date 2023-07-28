@@ -13,6 +13,7 @@ function Cookri() {
         <Tag colorScheme="yellow">スクラム開発</Tag>
         <Tag colorScheme="green">deta.sh</Tag>
         </HStack>
+        
         <Text mt="20px">
             「飽きず」に冷蔵庫の食材を使い切りたい自炊をするが、買い物に行くのが「面倒」を解決する「レシピ検索サービス」です。家にない食材をはじくことで、今ある食材でバリエーションに富んだレシピを提案できます。
         </Text>

@@ -1,5 +1,5 @@
 import { Button, Link, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure } from "@chakra-ui/react";
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 interface Props {
     title: string;
     description: ReactElement;
@@ -8,7 +8,7 @@ interface Props {
 
 function  ProductionDetail(props: Props){
     const {isOpen, onOpen, onClose} = useDisclosure()
-    const finalRef = React.useRef(null)
+    // const finalRef = React.useRef(null)
 
     if (props.url != null) {
     return(
