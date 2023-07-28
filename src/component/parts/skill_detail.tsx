@@ -1,5 +1,6 @@
 import { ChevronDownIcon } from '@chakra-ui/icons';
 import { Box, Button, Collapse, Tag, useDisclosure, WrapItem } from '@chakra-ui/react';
+import { ReactElement } from 'react';
 
 interface Props {
     name : string,
@@ -10,7 +11,7 @@ interface Props {
 function SkillDetail(props: Props) {
     const { name, set, color } = props
     const {isOpen, onToggle} = useDisclosure()
-    const sets:string[] = []
+    const sets:ReactElement[] = []
     for (let i = 0; i < set.length; i++) {
         sets.push(<Tag ml="10px" colorScheme={color}>{set[i]}</Tag>)
     }
