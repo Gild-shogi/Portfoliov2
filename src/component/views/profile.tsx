@@ -6,7 +6,7 @@ function Profile() {
     return (
         <Box w="100%" h="100%" mb="5px" bg="blackAlpha.100">
             <Center>
-                <Image mt="80px" borderRadius="full" boxSize="150px" src={myicon} alt="myicon" />
+                <Image mt="80px" borderRadius="full" boxSize="xs" src={myicon} alt="myicon" />
             </Center>
             <Center>
             <Heading as="h2" mt="50px" size='3xl' color="blackAlpha.700">Keito Oishi</Heading>
