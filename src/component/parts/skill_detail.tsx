@@ -17,7 +17,7 @@ function SkillDetail(props: Props) {
     }
     if (sets.length!==0) {
     return (
-        <Box>
+        <Box w="300px">
             <Button w="100%" justifyContent="left" onClick={onToggle} colorScheme='gray' variant="outline" rightIcon={<ChevronDownIcon />}>{name}</Button>
             <Collapse in={isOpen} animateOpacity>
             <Box
@@ -39,7 +39,7 @@ function SkillDetail(props: Props) {
         </Box>
     )}else{
         return (
-            <Box>
+            <Box w="300px">
                 <Button w="100%" justifyContent="left" colorScheme='gray' variant="outline">{name}</Button>
             </Box>
         )

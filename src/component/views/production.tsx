@@ -4,7 +4,7 @@ import Travel from "../templates/Production/travel";
 
 function Production(){
     return(
-        <Flex flexWrap="wrap" gap={4}>
+        <Flex flexWrap="wrap" gap={1}>
             <Cookri />
             <Travel />
         </Flex>

@@ -1,8 +1,8 @@
 import { Box, Card, CardBody, CardFooter, Center, Divider, Flex, HStack, Heading, Image, Stack, Tag, Text } from "@chakra-ui/react"
 import { ReactElement } from 'react'
-import cook_logo from "../../../assets/cookri/cookri-logo.png"
-import cook_mobile from "../../../assets/cookri/cookri-mobile.png"
-import cool_obj from "../../../assets/cookri/obj.png"
+import cook_logo from "../../../assets/cookri/cookri-logo.webp"
+import cook_mobile from "../../../assets/cookri/cookri-mobile.webp"
+import cool_obj from "../../../assets/cookri/obj.webp"
 import ProductionDetail from '../../parts/product_detail'
 
 function Cookri() {

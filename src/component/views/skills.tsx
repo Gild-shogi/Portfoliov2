@@ -1,4 +1,4 @@
-import { Grid, GridItem } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import SkillDetail from "../parts/skill_detail";
 
 function Skills() {
@@ -6,13 +6,13 @@ function Skills() {
     const js:string[] = ["TypeScript", "React"]
     
     return (
-        <Grid templateColumns="repeat(2, 1fr)" gap={3}>
-            <GridItem><SkillDetail name="Python" set={python} color="blue" /></GridItem>
-            <GridItem><SkillDetail name="JavaScript" set={js} color="yellow" /></GridItem>
-            <GridItem><SkillDetail name="Go" set={[]} color="" /></GridItem>
-            <GridItem><SkillDetail name="Terraform" set={[]} color="" /></GridItem>
-            <GridItem><SkillDetail name="Docker" set={[]} color="" /></GridItem>
-        </Grid>
+        <Flex flexWrap="wrap" gap={1}>
+            <SkillDetail name="Python" set={python} color="blue" />
+            <SkillDetail name="JavaScript" set={js} color="yellow" />
+            <SkillDetail name="Go" set={[]} color="" />
+            <SkillDetail name="Terraform" set={[]} color="" />
+            <SkillDetail name="Docker" set={[]} color="" />
+        </Flex>
     )
 }
 export default Skills;

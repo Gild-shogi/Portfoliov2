@@ -1,7 +1,7 @@
 import { Box, Card, CardBody, CardFooter, Center, Divider, Flex, HStack, Heading, Image, Stack, Tag, Text } from "@chakra-ui/react"
 import { ReactElement } from 'react'
-import logo from "../../../assets/Trabel/TrabelApp-display.png"
-import mobile from "../../../assets/Trabel/TrabelApp.png"
+import logo from "../../../assets/Trabel/TrabelApp-display.webp"
+import mobile from "../../../assets/Trabel/TrabelApp.webp"
 import ProductionDetail from '../../parts/product_detail'
 
 function Travel() {
