@@ -10,7 +10,7 @@ function  ProductionDetail(props: Props){
     const {isOpen, onOpen, onClose} = useDisclosure()
     // const finalRef = React.useRef(null)
 
-    if (props.url != null) {
+    if (props.url != "") {
     return(
         <>
       <Button mt={4} onClick={onOpen}>
@@ -19,7 +19,7 @@ function  ProductionDetail(props: Props){
         <Modal blockScrollOnMount={false} isOpen={isOpen} onClose={onClose} size="6xl">
             <ModalOverlay />
             <ModalContent>
-            <ModalHeader>{props.title}</ModalHeader>
+            <ModalHeader fontFamily="heading">{props.title}</ModalHeader>
             <ModalCloseButton />
             <ModalBody>
                 {props.description}

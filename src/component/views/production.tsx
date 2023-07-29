@@ -1,8 +1,13 @@
+import { Flex } from "@chakra-ui/react";
 import Cookri from "../templates/Production/cook_ri";
+import Travel from "../templates/Production/travel";
 
 function Production(){
     return(
-        <Cookri />
+        <Flex flexWrap="wrap" gap={4}>
+            <Cookri />
+            <Travel />
+        </Flex>
     )
 }
 export default Production;

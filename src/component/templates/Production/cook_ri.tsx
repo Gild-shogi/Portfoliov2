@@ -30,7 +30,7 @@ function Cookri() {
         </>
         )
     return (
-        <Card maxW='sm'>
+        <Card maxW='330px'>
     <CardBody>
         <Image
         src={cook_logo}
