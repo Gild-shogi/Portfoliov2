@@ -46,7 +46,7 @@ function Cookri() {
     </CardBody>
     <Divider />
     <CardFooter>
-        <ProductionDetail title="Cookりさん" description={hoge} url="https://cookri-san-73qjv4wkwq-an.a.run.app"/>
+        <ProductionDetail title="Cookりさん" description={hoge} />
     </CardFooter>
     </Card>
     )
