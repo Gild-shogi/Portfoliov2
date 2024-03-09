@@ -11,8 +11,8 @@ function Publications() {
             year={2024}
             award="学生プレゼンテーション賞"
             pages="10"
-            peer_review={false}
-            international={false}
+            peer_review={0}
+            international={0}
         />
     </Stack>
   );
