@@ -8,19 +8,19 @@ interface Props {
     year: number;
     award: string;
     pages: string;
-    peer_review: number;
-    international: number;
+    peer_review: string;
+    international: string;
     other: ReactElement;
 }
 
 const peerReview = {
-    0: "査読あり",
-    1: "査読なし"
+    "0": "査読あり",
+    "1": "査読なし"
 }
 
 const international = {
-    0: "国際会議",
-    1: "国内会議"
+    "0": "国際会議",
+    "1": "国内会議"
 }
 
 function PublicationsDetail(props: Props){
