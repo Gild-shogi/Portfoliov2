@@ -10,7 +10,7 @@ function  ProductionDetail(props: Props){
     const {isOpen, onOpen, onClose} = useDisclosure()
     // const finalRef = React.useRef(null)
 
-    if (props.url != "" && props.url != null) {
+    if (props.url != "") {
     return(
         <>
       <Button mt={4} onClick={onOpen}>
