@@ -13,12 +13,12 @@ interface Props {
     other: ReactElement;
 }
 
-const peerReview = {
+const peerReview: {[name:string]: string} = {
     "0": "査読あり",
     "1": "査読なし"
 }
 
-const international = {
+const international: {[name:string]: string} = {
     "0": "国際会議",
     "1": "国内会議"
 }
