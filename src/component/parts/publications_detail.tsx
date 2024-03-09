@@ -30,8 +30,8 @@ function PublicationsDetail(props: Props){
         <>
             <Flex fontSize="lg" pl="40px" margin="1.5">
                 <Box>
-                    <Tag mr="10px" colorScheme={props.peer_review===1 ? "red" : "blue"}>{peerReview[props.peer_review]}</Tag>
-                    <Tag mr="10px" colorScheme={props.international===1 ? "green" : "yellow"}>{international[props.international]}</Tag>
+                    <Tag mr="10px" colorScheme={props.peer_review==="1" ? "red" : "blue"}>{peerReview[props.peer_review]}</Tag>
+                    <Tag mr="10px" colorScheme={props.international==="1" ? "green" : "yellow"}>{international[props.international]}</Tag>
                     {props.award!==null && <Tag borderRadius="full" colorScheme='teal'>{props.award}</Tag>}
                     {props.author.join(", ")}. {props.title}. {props.conference}, {props.pages} pages, {props.year}.
                     {props.other}
