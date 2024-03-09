@@ -5,6 +5,7 @@ function NavBar() {
         <HStack as="header" top={0} zIndex="10" overflow="unset" position="sticky" bg="white">
         <Link href="#Skills"><Button>Skills</Button></Link>
         <Link href="#Products"><Button>Products</Button></Link>
+        <Link href="#Publication"><Button>Publication</Button></Link>
         <Link href="#History"><Button>History</Button></Link>
         <Spacer />
         <Link className="microtask repeat" href="//crowd4u.org">

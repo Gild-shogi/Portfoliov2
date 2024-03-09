@@ -3,11 +3,12 @@ import NavBar from './component/templates/navbar'
 import Hitory from './component/views/history'
 import Production from './component/views/production'
 import Profile from './component/views/profile'
+import Publications from './component/views/publications'
 import Skills from './component/views/skills'
 
 
 function App() {
-  
+
   return (
     <>
     <NavBar />
@@ -16,8 +17,10 @@ function App() {
     <Skills />
     <Content name="Products" id="Products" />
     <Production />
+    <Content name="Publication" id="Publication" />
+    <Publications />
     <Content name="History" id="History" />
-    <Hitory /> 
+    <Hitory />
     </>
   )
 }

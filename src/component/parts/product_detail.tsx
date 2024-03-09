@@ -10,7 +10,7 @@ function  ProductionDetail(props: Props){
     const {isOpen, onOpen, onClose} = useDisclosure()
     // const finalRef = React.useRef(null)
 
-    if (props.url != "") {
+    if (props.url != "" && props.url != null) {
     return(
         <>
       <Button mt={4} onClick={onOpen}>
@@ -49,7 +49,7 @@ function  ProductionDetail(props: Props){
                   <ModalBody>
                       {props.description}
                   </ModalBody>
-      
+
                   <ModalFooter>
                       <Button colorScheme='blue' mr={3} onClick={onClose}>
                       Close

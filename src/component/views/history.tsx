@@ -200,6 +200,23 @@ function History() {
                     link_text=""
                 />
             </Stack>
+            <Stack>
+                <Year year="2024"/>
+                <HistoryDetail
+                    detail="筑波大学 情報学群 知識情報・図書館学類 知識情報システム主専攻 卒業見込"
+                    award=""
+                    award_color=""
+                    link=""
+                    link_text=""
+                />
+                <HistoryDetail
+                    detail="筑波大学 大学院 人間総合科学学術院 人間総合科学研究群 修士課程 入学見込"
+                    award=""
+                    award_color=""
+                    link=""
+                    link_text=""
+                />
+            </Stack>
         </Stack>
     )
 }
