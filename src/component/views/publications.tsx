@@ -13,6 +13,7 @@ function Publications() {
             pages="10"
             peer_review="0"
             international="0"
+            other={null}
         />
     </Stack>
   );

@@ -3,14 +3,14 @@ import { ReactElement } from "react";
 interface Props {
     title: string;
     description: ReactElement;
-    url: string;
+    url: string | null;
 }
 
 function  ProductionDetail(props: Props){
     const {isOpen, onOpen, onClose} = useDisclosure()
     // const finalRef = React.useRef(null)
 
-    if (props.url != "") {
+    if (props.url != "" && props.url != null) {
     return(
         <>
       <Button mt={4} onClick={onOpen}>

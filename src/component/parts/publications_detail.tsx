@@ -10,7 +10,7 @@ interface Props {
     pages: string;
     peer_review: string;
     international: string;
-    other: ReactElement;
+    other: ReactElement | null;
 }
 
 const peerReview: {[name:string]: string} = {
