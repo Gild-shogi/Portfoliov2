@@ -19,8 +19,8 @@ const peerReview: {[name:string]: string} = {
 }
 
 const international: {[name:string]: string} = {
-    "0": "国際会議",
-    "1": "国内会議"
+    "0": "国内会議",
+    "1": "国際会議"
 }
 
 function PublicationsDetail(props: Props){
