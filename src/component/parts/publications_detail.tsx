@@ -14,8 +14,8 @@ interface Props {
 }
 
 const peerReview: {[name:string]: string} = {
-    "0": "査読あり",
-    "1": "査読なし"
+    "0": "査読なし",
+    "1": "査読あり"
 }
 
 const international: {[name:string]: string} = {
