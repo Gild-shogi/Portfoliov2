@@ -1,5 +1,5 @@
 import { Box, Center, Heading, Image, Link, Text } from '@chakra-ui/react';
-import myicon from '../../assets/gild-icon.webp';
+import myicon from '../../assets/gild-icon_s.webp';
 import Contact from '../parts/contact';
 
 function Profile() {
