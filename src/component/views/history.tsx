@@ -203,7 +203,7 @@ function History() {
             <Stack>
                 <Year year="2024"/>
                 <HistoryDetail
-                    detail="筑波大学 情報学群 知識情報・図書館学類 知識情報システム主専攻 卒業見込"
+                    detail="筑波大学 情報学群 知識情報・図書館学類 知識情報システム主専攻 卒業"
                     award=""
                     award_color=""
                     link=""
