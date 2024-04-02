@@ -12,7 +12,7 @@ function Profile() {
             <Heading as="h2" mt="50px" size='3xl' color="blackAlpha.700">Keito Oishi</Heading>
             </Center>
             <Center><Text as="b" fontFamily="heading" mt="5px" ml="5%" mr="5%" size='sm' color="blackAlpha.700" align="center">
-                筑波大学 情報学群 知識情報・図書館学類 4年 <Text as="u"><Link href="https://fusioncomplab.org/index.html" isExternal>融合知能デザイン研究室所属</Link></Text>
+                筑波大学 人間総合科学学術院 人間総合科学研究群 情報学学位プログラム M1 <Text as="u"><Link href="https://fusioncomplab.org/index.html" isExternal>融合知能デザイン研究室所属</Link></Text>
             </Text></Center>
             <Center><Text as="b" fontFamily="heading"  m="5" w="75%" size='sm' color="blackAlpha.700">豊田高専からの3年次編入、高専時代は手話における読話認識の研究を行い、現在はプロジェクト型クラウドソーシングの研究の傍ら、研究室のマイクロタスク型クラウドソーシングサービスの開発に従事。主にインフラ、時々バックエンドを担当。</Text></Center>
             <Center>
