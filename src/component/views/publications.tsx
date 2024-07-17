@@ -13,6 +13,7 @@ function Publications() {
             pages="10"
             peer_review="0"
             international="0"
+            link = 'https://confit.atlas.jp/guide/event-img/deim2024/T4-B-6-03/public/pdf'
             other={null}
         />
     </Stack>

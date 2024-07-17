@@ -1,4 +1,4 @@
-import { Box, Flex, Tag } from "@chakra-ui/react";
+import { Box, Flex, Link, Tag } from "@chakra-ui/react";
 import { ReactElement } from "react";
 
 interface Props {
@@ -10,6 +10,7 @@ interface Props {
     pages: string;
     peer_review: string;
     international: string;
+    link: string
     other: ReactElement | null;
 }
 
@@ -25,7 +26,7 @@ const international: {[name:string]: string} = {
 
 function PublicationsDetail(props: Props){
     // const {isOpen, onOpen, onClose} = useDisclosure()
-
+    if (props.link !== "" ){
     return(
         <>
             <Flex fontSize="lg" pl="40px" margin="1.5">
@@ -33,12 +34,29 @@ function PublicationsDetail(props: Props){
                     <Tag mr="10px" colorScheme={props.peer_review==="1" ? "red" : "blue"}>{peerReview[props.peer_review]}</Tag>
                     <Tag mr="10px" colorScheme={props.international==="1" ? "green" : "yellow"}>{international[props.international]}</Tag>
                     {props.award!==null && <Tag borderRadius="full" colorScheme='teal'>{props.award}</Tag>}
-                    {props.author.join(", ")}. {props.title}. {props.conference}, {props.pages} pages, {props.year}.
+                    {props.author.join(", ")}.
+                    <Link href={props.link} isExternal color='blue.400'> {props.title}. </Link>
+                    {props.conference}, {props.pages} pages, {props.year}.
                     {props.other}
                 </Box>
             </Flex>
         </>
     )
+    }else{
+        return(
+            <>
+                <Flex fontSize="lg" pl="40px" margin="1.5">
+                    <Box>
+                        <Tag mr="10px" colorScheme={props.peer_review==="1" ? "red" : "blue"}>{peerReview[props.peer_review]}</Tag>
+                        <Tag mr="10px" colorScheme={props.international==="1" ? "green" : "yellow"}>{international[props.international]}</Tag>
+                        {props.award!==null && <Tag borderRadius="full" colorScheme='teal'>{props.award}</Tag>}
+                        {props.author.join(", ")}. {props.title}. {props.conference}, {props.pages} pages, {props.year}.
+                        {props.other}
+                    </Box>
+                </Flex>
+            </>
+        )
+    }
 }
 
 export default PublicationsDetail;
