@@ -210,7 +210,21 @@ function History() {
                     link_text=""
                 />
                 <HistoryDetail
-                    detail="筑波大学 大学院 人間総合科学学術院 人間総合科学研究群 修士課程 入学見込"
+                    detail="筑波大学 大学院 人間総合科学学術院 人間総合科学研究群 修士課程 入学"
+                    award=""
+                    award_color=""
+                    link=""
+                    link_text=""
+                />
+                <HistoryDetail
+                    detail="TOKIUM サマーインターンシップ参加"
+                    award=""
+                    award_color=""
+                    link=""
+                    link_text=""
+                />
+                <HistoryDetail
+                    detail="DMM Guild2024参加"
                     award=""
                     award_color=""
                     link=""
