@@ -2,7 +2,6 @@ import {
   Button,
   HStack,
   VStack,
-  Image,
   Link,
   Spacer,
   IconButton,
