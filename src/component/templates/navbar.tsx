@@ -54,9 +54,9 @@ function NavBar() {
           </Link>
         </HStack>
         <Spacer />
-        <Link className="microtask repeat lazyload" href="//crowd4u.org">
+        {/* <Link className="microtask repeat lazyload" href="//crowd4u.org">
           <Image src="//crowd4u.org/img/crowd4u_banner182x47.png" />
-        </Link>
+        </Link> */}
       </HStack>
 
       {/* モバイル用ドロワーメニュー */}

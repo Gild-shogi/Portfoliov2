@@ -4,12 +4,14 @@ import SkillDetail from "../parts/skill_detail";
 function Skills() {
     const python:string[] = ["FastAPI", "Pytorch", "Keras", "Polars"]
     const js:string[] = ["TypeScript", "React"]
+    const aws:string[] = ["CDK", "Lambda", "ECS", "EC2"]
     
     return (
         <Flex flexWrap="wrap" gap={1}>
             <SkillDetail name="Python" set={python} color="blue" />
             <SkillDetail name="JavaScript" set={js} color="yellow" />
             <SkillDetail name="Go" set={[]} color="" />
+            <SkillDetail name="AWS" set={aws} color="red" />
             <SkillDetail name="Terraform" set={[]} color="" />
             <SkillDetail name="Docker" set={[]} color="" />
         </Flex>
